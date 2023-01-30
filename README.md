@@ -1,5 +1,4 @@
 # 2022.I.16.30.GPS
 
-https://we.tl/t-HlLSJKb3sq
-
-Sky box: https://we.tl/t-SCRrcrLOKK
+Json -> https://we.tl/t-TF7sFrCHDo
+Scripts -> https://we.tl/t-KY2lJfsAPn
