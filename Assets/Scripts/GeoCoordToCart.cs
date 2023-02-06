@@ -29,4 +29,14 @@ public class GeoCoordToCart : MonoBehaviour
     {
         Instantiate(_locationPointPrefab, position, Quaternion.identity).Text = city;
     }
+
+    public Vector3 GetOriginPosition()
+    {
+        return transform.position;
+    }
+
+    public float GetSphereScale()
+    {
+        return _sphereScale;
+    }
 }
