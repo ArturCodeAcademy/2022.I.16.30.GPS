@@ -83,6 +83,7 @@ public class InputManager : MonoBehaviour
 
     public void CompleteMission()
     {
+        Debug.Log("CompleteMission");
         canDisplayMarker = false;
         mapMarker.gameObject.SetActive(false);
         missionCompletionScreen.SetActive(true);
