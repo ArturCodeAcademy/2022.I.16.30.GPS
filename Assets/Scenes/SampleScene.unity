@@ -1922,6 +1922,7 @@ GameObject:
   - component: {fileID: 1246612214}
   - component: {fileID: 1246612213}
   - component: {fileID: 1246612215}
+  - component: {fileID: 1246612216}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1997,6 +1998,18 @@ MonoBehaviour:
   _gameFinishButton: {fileID: 897698820}
   missionMaxPoints: 1000
   missionMaxDistance: 5000
+--- !u!114 &1246612216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246612211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a261d24e4a1511469c0711f2364ff0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1380928772
 GameObject:
   m_ObjectHideFlags: 0
@@ -2284,10 +2297,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1246612215}
-        m_TargetAssemblyTypeName: InputManager, Assembly-CSharp
-        m_MethodName: FinishGame
-        m_Mode: 1
+      - m_Target: {fileID: 1246612216}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
