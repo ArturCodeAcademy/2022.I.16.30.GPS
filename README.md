@@ -1,14 +1,4 @@
 # 2022.I.16.30.GPS
 
-Marker -> https://we.tl/t-cPep9quBIJ
-InputManager -> https://we.tl/t-XTFKihIOaf
+Scripts -> https://we.tl/t-4FpMM23V1x
 
-public Vector3 GetOriginPosition()
-    {
-        return transform.position;
-    }
-
-    public float GetSphereScale()
-    {
-        return _sphereScale;
-    }
